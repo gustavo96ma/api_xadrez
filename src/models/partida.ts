@@ -1,5 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
-import { sequelize } from '../src/database';
+import { sequelize } from '../database';
 
 export class Partida extends Model {
     public id!: number;
@@ -41,5 +41,6 @@ Partida.init(
         sequelize,
         modelName: 'Partida',
         tableName: 'partidas',
+        timestamps: false,
     }
 );
