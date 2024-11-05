@@ -41,5 +41,6 @@ Partida.init(
         sequelize,
         modelName: 'Partida',
         tableName: 'partidas',
+        timestamps: false,
     }
 );
