@@ -1,6 +1,5 @@
 import express, { Request, Response } from 'express';
 import { sequelize } from './database'; // Certifique-se de ajustar o caminho correto
-import { Partida } from './models/partida'; // Ajuste o caminho conforme necessário
 import { Jogador } from './models/jogador'; // Ajuste o caminho conforme necessário
 import cors from 'cors';
 
